@@ -1,14 +1,14 @@
 {
   "name": "vsb-timetable-solver",
   "author": "Marek Lukas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "packageManager": "yarn@3.0.2",
   "scripts": {
     "start": "ts-node src/index.ts"
   },
   "bin": {
-    "vsb-timetable-solver": "node dist/index.js"
+    "vsb-timetable-solver": "dist/index.js"
   },
   "files": [
     "dist/index.js"
