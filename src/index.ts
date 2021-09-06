@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { writeFileSync } from "fs";
 import { CartesianProduct, Combination } from 'js-combinatorics';
 import puppeteer from 'puppeteer';
