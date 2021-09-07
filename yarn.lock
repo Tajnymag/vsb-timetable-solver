@@ -411,10 +411,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-combinatorics@npm:^1.5.3":
-  version: 1.5.3
-  resolution: "js-combinatorics@npm:1.5.3"
-  checksum: 914b894b8f34e9993265349e7fde5d12caf442adb3299840d107f3d3ac26df347ab1e62a3728334f18068c5edb493d57f87b0dd071da31acbc4a7df18ebca5c4
+"js-combinatorics@npm:^1.5.4":
+  version: 1.5.4
+  resolution: "js-combinatorics@npm:1.5.4"
+  checksum: fd2300ad16630ec4c4bd24a684b4b8aecf11814eeac3fccabad76e0d3545737a8b9eec77311ff747d49cfb269ba1644e69f68f6eb1b44c5e713e295f08cec413
   languageName: node
   linkType: hard
 
@@ -759,11 +759,13 @@ typescript@^4.4.2:
   dependencies:
     "@types/node": ^16.7.10
     "@types/yargs": ^17.0.2
-    js-combinatorics: ^1.5.3
+    js-combinatorics: ^1.5.4
     puppeteer: ^10.2.0
     ts-node: ^10.2.1
     typescript: ^4.4.2
     yargs: ^17.1.1
+  bin:
+    vsb-timetable-solver: dist/index.js
   languageName: unknown
   linkType: soft
 
