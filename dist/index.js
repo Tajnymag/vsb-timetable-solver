@@ -236,7 +236,9 @@ exports.overlaps = overlaps;
         type: event.type === TimetableEventType.LECTURE ? 'lecture' : 'practice',
         day: event.day,
         beginTime: event.beginTime,
-        endTime: event.endTime
+        endTime: event.endTime,
+        beginSlot: event.beginSlot,
+        endSlot: event.endSlot
     })));
     if (argv.output) {
         (0, fs_1.writeFileSync)('possibilities.json', JSON.stringify(cleanedUpPossibilities));

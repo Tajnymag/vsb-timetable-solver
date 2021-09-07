@@ -300,7 +300,9 @@ export function overlaps(eventA: TimetableEvent, eventB: TimetableEvent) {
 		type: event.type === TimetableEventType.LECTURE ? 'lecture' : 'practice',
 		day: event.day,
 		beginTime: event.beginTime,
-		endTime: event.endTime
+		endTime: event.endTime,
+		beginSlot: event.beginSlot,
+		endSlot: event.endSlot
 	})))
 
 	if (argv.output) {
