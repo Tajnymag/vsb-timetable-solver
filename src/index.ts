@@ -265,7 +265,7 @@ export function overlaps(eventA: TimetableEvent, eventB: TimetableEvent) {
 		eventsSortedMap.set(event.subject, lastState);
 	}
 
-	const combinationSequence = [...eventsSortedMap.values()].map(e => [e.lectures, e.practices]).flat(1);
+	const combinationSequence = [...eventsSortedMap.values()].map(e => [e.lectures, e.practices].filter(a => a.length > 0)).flat(1);
 
 	const cartesianProduct = new CartesianProduct(...combinationSequence);
 
