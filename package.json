@@ -1,7 +1,7 @@
 {
   "name": "vsb-timetable-solver",
   "author": "Marek Lukas",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "packageManager": "yarn@3.4.1",
   "scripts": {
