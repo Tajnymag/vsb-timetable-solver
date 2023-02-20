@@ -3,7 +3,7 @@
   "author": "Marek Lukas",
   "version": "2.0.0",
   "license": "MIT",
-  "packageManager": "yarn@3.0.2",
+  "packageManager": "yarn@3.4.1",
   "scripts": {
     "start": "ts-node src/index.ts"
   },
