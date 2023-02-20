@@ -116,7 +116,7 @@ export function overlaps(eventA: TimetableEvent, eventB: TimetableEvent) {
 	await page.type('#username', argv.username);
 	await page.type('#password', argv.password);
 
-	await Promise.all([page.click('input[name="submit"]'), page.waitForNavigation({waitUntil:"load"})]);
+	await Promise.all([page.click('button[name="submit"]'), page.waitForNavigation({waitUntil:"load"})]);
 	argv.verbose && console.log('Logged in');
 
 	await page.goto('https://edison.sso.vsb.cz/wps/myportal/student/rozvrh/volba-rozvrhu', {waitUntil: 'networkidle0'});
